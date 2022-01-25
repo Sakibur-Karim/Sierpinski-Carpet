@@ -90,7 +90,7 @@ class Panel extends JPanel
                             g.setColor(new Color((int)(Math.random()*256),(int) (Math.random()*226),(int)(Math.random()*256)));
                         g2.fill(new Rectangle2D.Double(50+size*i,50+size*j, size, size));
                     }
-                    g.setColor(Color.BLACK);
+                    g.setColor(Color.MAGENTA);
                     g2.draw(new Rectangle2D.Double(50+size*i,50+size*j, size, size));
                 }
             }
